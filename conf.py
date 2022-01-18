@@ -40,7 +40,10 @@ templates_path = ['_templates']
 # You can specify multiple suffix as a list of string:
 #
 # source_suffix = ['.rst', '.md']
-source_suffix = '.rst'
+source_suffix = {
+	'.rst': 'restructuredtext', 
+	'.md': 'markdown',
+}
 
 # The master toctree document.
 master_doc = 'index'
@@ -50,6 +53,8 @@ project = u'Narvi Docs'
 copyright = u'2022, Tampere Center for Scientific Computing'
 author = u'Tampere Center for Scientific Computing'
 
+html_show_copyright = False
+html_show_sphinx = False
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
 # built documents.
@@ -89,7 +94,7 @@ html_theme = 'classic'
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-# html_theme_options = {}
+html_theme_options = {'globaltoc_includehidden': 'True',}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -102,9 +107,8 @@ html_static_path = ['_static']
 # This is required for the alabaster theme
 # refs: http://alabaster.readthedocs.io/en/latest/installation.html#sidebars
 html_sidebars = {
-    '**': [
-        'relations.html',  # needs 'show_related': True theme option to display
-        'searchbox.html',
+    '**': [ 'globaltoc.html', 'localtoc.html',
+       #  'general.html',  # needs 'show_related': True theme option to display
     ]
 }
 

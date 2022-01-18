@@ -12,24 +12,16 @@ Also we are very similar than large CSC clusters, but of course they are larger
 and Narvi might easier to start with because it is more integrated into the local
 environment.
 
-Current documentation is still `here <https://wiki.eduuni.fi/display/tuttcsc/TCSC+Home>`_. 
+Current documentation is still on `eDuuni <https://wiki.eduuni.fi/display/tuttcsc/TCSC+Home>`_ 
 
-.. list-table::
-
-  * * **Main parts**
-
-    * :doc:`general`
-    * :doc:`account`
-    * :doc:`connecting`
+If you are here for FGCI kickstart link to local differences is `here <kickstart-diffs.html>`_
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
+   :hidden:
 
+   general.rst
+   account.rst
+   connecting.rst
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

@@ -1,4 +1,7 @@
 
+.. _connecting:
+.. _rst_tutorial:
+
 ====================
 Connecting to Narvi
 ====================
