@@ -19,7 +19,6 @@ If you are here for FGCI kickstart link to local differences is `here <kickstart
 .. toctree::
    :maxdepth: 1
    :caption: Contents:
-   :hidden:
 
    general.rst
    account.rst
