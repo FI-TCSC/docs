@@ -8,10 +8,10 @@ Application
 
 1. Go to page id.tuni.fi
 2. Choose "Identity management" → "Manage service entitlements" → "Apply for a new entitlement"
-3.  Choose correct contract (if many)
-.. note:: 
+3. Choose correct contract (if many)
 
-	If you fill application as student also tell Course name and the responsible teacher
+.. note:: 
+    If you fill application as student also tell Course name and the responsible teacher
 
 4. Scroll down and choose "Linux Servers (LINUX-SERVERS) TCSC HPC Cluster"
 5. Fill in necessary information and press "Submit" 
