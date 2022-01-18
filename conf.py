@@ -98,6 +98,8 @@ html_theme = 'alabaster'
 # html_theme_options = {'globaltoc_includehidden': 'True',}
 html_theme_options = {
 	'show_relbars': 'False',
+	'sidebar_includehidden': 'True',
+	'show_powered_by': 'False',
 }
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
