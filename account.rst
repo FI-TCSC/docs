@@ -57,7 +57,8 @@ passphrase for your private key.
     directory, because only then SELinux context will be correct.
 
 If you have working MTA-configuration you could send public-key us with command:
-mailx -a .ssh/${USERNAME}_narvi_key.pub -s "Narvi SSH key (${USER})" tcsc.tau@tuni.fi
+.. code-block::
+    mailx -a .ssh/${USERNAME}_narvi_key.pub -s "Narvi SSH key (${USER})" tcsc.tau@tuni.fi
 
 Using ssh-key in linux
 """"""""""""""""""""""
@@ -93,7 +94,7 @@ Putty(gen)
 3. Click Generate and draw some picture to puttygen-window to give it some randomness it needs. (wink)
 4. Give passphrase for key twice, and note the location you'll save the key.
 5. Select the public key from OpenSSH from box at top and save it to some file e.g. narvi.pub.
-6. Mail that *.pub as email attachment to tcsc.tau@tuni.fi with subject like "Narvi SSH Key (yourusername)"
+6. Mail that \*.pub as email attachment to tcsc.tau@tuni.fi with subject like "Narvi SSH Key (yourusername)"
 .. note::
     Never send or give your private key to anyone!!!
 
