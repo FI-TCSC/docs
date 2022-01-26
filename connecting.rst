@@ -1,7 +1,4 @@
 
-.. _connecting:
-.. _rst_tutorial:
-
 ====================
 Connecting to Narvi
 ====================
@@ -13,34 +10,22 @@ You can connect to ``narvi.tut.fi`` from everywhere with your private ssh-key.
 
 .. note::
 
-   Are you here for a SciComp KickStart course?  You just need to :doc:`make
-   sure you have an account <../accounts>` and then be able to connect
+   Are you here for a `SciComp KickStart course <https://scicomp.aalto.fi/training/scip/winter-kickstart/>`_?  You just need to `make
+   sure you have an account <accounts.html>`_ and then be able to connect
    via ssh (first section here), and you don't need to worry about the
-   graphical application parts.  Everything else, we do tomorrow.
+   graphical application parts.  Everything else, will be discussed during course.
 
 .. note::
 
-   Narvi uses Tuni accounts, but because we don't use passwords, account needs to
+   Narvi uses Tuni accounts, but since we don't use passwords, account needs to
    activated first and you need to provide your public ssh-key as instructed at
-   `TCSC Wiki <https://wiki.eduuni.fi/display/tuttcsc/User+Account>`__
+   `accounts <accounts.html>`_
 
 .. seealso::
 
-      The :doc:`shell crash course <https://scicomp.aalto.fi/scicomp/shell>`__ is a prerequisite
+      The `shell crash course <https://scicomp.aalto.fi/scicomp/shell>`_ is a kind of prerequisite
       to this material.
 
-
-There are different ways of connecting:
-
-.. list-table::
-    :header-rows: 1
-
-    * * Method
-      * About
-      * From where?
-    * * ssh
-      * Works everywhere, from everywhere.  Firewalls may make things
-	hard sometimes.
 
 Connecting via ssh
 ==================
@@ -50,10 +35,10 @@ Linux
 
 All Linux distributions come with an ``ssh`` client, so you don't need to do
 anything.  To use graphical applications, use the standard ``-X`` option,
-nothing extra needed.::
+nothing extra is needed.::
 
   ssh narvi.tut.fi
-  # OR, if your username is different:
+  # OR, if your username is different from local machine:
   ssh username@narvi.tut.fi
 
 Mac
@@ -69,7 +54,7 @@ Windows
 You need to install a ssh client yourself:  `PuTTY <https://www.chiark.greenend.org.uk/~sgtatham/putty/>`__ is
 the standard one.  If you want to run graphical programs, you need an X server on
 Windows: see this
-`link <http://www.geo.mtu.edu/geoschem/docs/putty_install.html>`__ for
+`link <http://www.geo.mtu.edu/geoschem/docs/putty_install.html>`_ for
 some hints.  (Side note: putty dot org is an advertisement site trying to
 get you to install something else.)
 
@@ -83,7 +68,7 @@ WSL (=Windows Subsystem for Linux), which has about anything normal linux shell 
 Advanced options
 ----------------
 
-See the :doc:`advanced ssh information <https://scicomp.aalto.fi/scicomp/ssh>`__ to learn how
+See the  `advanced ssh information <https://scicomp.aalto.fi/scicomp/ssh>`_ to learn how
 to log in without a password, automatically save your username 
 and more. It really will save you time.
 

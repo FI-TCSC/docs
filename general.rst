@@ -6,12 +6,12 @@ Cluster overview
 Shared resource
 ===============
 
-Narvi is a joint installation of TCSC members.
-It is now available to all Aalto researchers.
+Narvi is a joint installation of TCSC member faculties.
+It is now available to all Tuni researchers.
 
 As of 2016, Narvi is part of `FGCI - Finnish Grid and Cloud
-Infrastructure <https://www.csc.fi/-/fgci>`__ (predecessor of `Finnish
-Grid Infrastructure <http://www.csc.fi/tutkimus/Laskentapalvelut/gridymparisto/fgi>`__).
+Infrastructure <https://www.csc.fi/-/fgci>`_ (predecessor of `Finnish
+Grid Infrastructure <http://www.csc.fi/tutkimus/Laskentapalvelut/gridymparisto/fgi>`_).
 Through the national grid and cloud infrastructure, Narvi also becomes
 part of the European Grid Infrastructure.
 
