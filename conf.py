@@ -97,8 +97,8 @@ html_theme = 'alabaster'
 # This doesn't work yet
 # html_theme_options = {'globaltoc_includehidden': 'True',}
 html_theme_options = {
-	'show_relbars': 'False',
-	'sidebar_includehidden': 'True',
+#	'show_relbars': 'False',
+#	'sidebar_includehidden': 'True',
 	'show_powered_by': 'False',
 }
 # Add any paths that contain custom static files (such as style sheets) here,
