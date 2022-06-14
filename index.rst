@@ -5,7 +5,7 @@
 
 .. Defining some link-macros etc
 
-.. _Kickstart: https://scicomp.aalto.fi/training/scip/winter-kickstart/
+.. _Kickstart: https://scicomp.aalto.fi/training/scip/kickstart-2022-summer/
 
 TCSC Narvi cluster's new user documentation!
 ======================================
