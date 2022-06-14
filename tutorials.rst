@@ -2,5 +2,5 @@
 User guides
 ===========
 
-- python.rst
+- :ref:`Narvi python`
 
