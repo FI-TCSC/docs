@@ -27,4 +27,4 @@ If you are here for `FGCI kickstart <Kickstart_>`_ link to local differences is 
    general.rst
    account.rst
    connecting.rst
-
+   tutorials.rst
