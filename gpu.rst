@@ -67,23 +67,29 @@ generations with ``--constraint='pascal|volta'`` (Remember to use the quotes
 since ``|`` is the shell pipe)
 
 Current GPU resources and architecture's
----------------
+----------------------------------------
 Currently there are four different types of gpu's available on Narvi: Tesla
 K40, K80, P100 and V100. Also there are some variation in memory amounts. If
 you wan't to request specific type of GPU, here are suitable slurm --gres and
 --constraint -parameters:
-.. table::
-========    =========   =========   =========   ==========
-GPU-type    mem/GPU     quantity    gres        constraint
-========    =========   =========   =========   ==========
-Tesla K40   12GiB       6           teslak40    kepler
-Tesla K80   12GiB       3           teslak80    kepler
-Tesla P100  12GiB       24          teslap100   pascal
-Tesla P100  16GiB       8           teslap100   gpumem_16, pascal
-Tesla V100  16GiB       16          teslav100   gpumem_16, volta
-Tesla V100  32GiB       24          teslav100   gpumem_32, volta
-Quadro RTX 8000  4GB    3           rtx100      gpumem_44, rtx
-========    =========   =========   =========   ==========
+
++---------------+----------+---------+-----------+----------------------+
+|GPU-type       | mem/GPU  |quantity | gres      | constraint           |
++===============+==========+=========+===========+======================+
+|Tesla K40      | 12GiB    |  6      | teslak40  | kepler               |
++---------------+----------+---------+-----------+----------------------+
+|Tesla K80      | 12GiB    |  3      | teslak80  | kepler               |
++---------------+----------+---------+-----------+----------------------+
+|Tesla P100     | 12GiB    | 24      | teslap100 | pascal               |
++---------------+----------+---------+-----------+----------------------+
+|Tesla P100     | 16GiB    |  8      | teslap100 | gpumem_16,pascal     |
++---------------+----------+---------+-----------+----------------------+
+|Tesla V100     | 16GiB    | 16      | teslav100 | gpumem_16, volta     |
++---------------+----------+---------+-----------+----------------------+
+|Tesla V100     | 32GiB    | 24      | teslav100 | gpumem_32, volta     |
++---------------+----------+---------+-----------+----------------------+
+|Quadro RTX 8000| 4GB      |  3      | rtx100    | gpumem_44, rtx       |
++---------------+----------+---------+-----------+----------------------+
 
 So assuming you'll want P100 with 16G, you should use something like --gres:gpu:teslap100:1 --constraint=gpumem_16
 On the other hand, if anything after p100 is enough then you could ask --gres:gpu:1 --constraint="pascal|volta"
