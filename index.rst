@@ -16,15 +16,27 @@ Also we are very similar than large CSC clusters, but of course they are larger
 and Narvi might easier to start with because it is more integrated into the local
 environment.
 
-Current documentation is still on `eDuuni <https://wiki.eduuni.fi/display/tuttcsc/TCSC+Home>`_ 
 
 If you are here for `FGCI kickstart <Kickstart_>`_ link to local differences is `here <kickstart-diffs.html>`_
 
 .. toctree::
+   :caption: General
+   :name: general
+   :hidden:
    :maxdepth: 2
-   :titlesonly:
 
    general.rst
    account.rst
    connecting.rst
+
+.. toctree::
+   :caption: Usage
+   :name: usage
+   :hidden:
+   :maxdepth: 2
+
+   file-transfer.rst
+   slurm.rst
+   storage.rst
    tutorials.rst
+   software.rst
