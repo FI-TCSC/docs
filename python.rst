@@ -13,12 +13,12 @@ with broken python & libraries sooner or later. (You might still end up with it)
 
 So start with either with:
 
-.. code-block::
+..code-block::
     module load Miniconda3
  
 # or
  
-.. code-block::
+..code-block::
     module load local-anaconda
 
 The first one is "mini-anaconda" specifically ment for creating your own
@@ -29,7 +29,7 @@ cuda and tensorflow already installed.
 
 If/when you'll need to add some other python modules best way to proceed is to create your own anaconda environment "on top" of that:
 
-.. code-block::
+..code-block::
     conda create -n my-env python numpy cuda ...
     # Let's activate newly created environment
     source activate my-env
