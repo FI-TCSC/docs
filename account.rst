@@ -65,7 +65,7 @@ Using ssh-key in linux
 When using key, which isn't named as default, you'll need to specify the used
 key when using it. e.g.
 .. code-block::
-    ssh -i ${USER}_narvi_key your_tuni_username@narvi.tut.fi (username is NOT email-address)
+    ssh -i ${USER}_narvi_key your_tuni_username@narvi.tut.fi (username is NOT email-address!)
 
 or you could add it to ~/.ssh/config -file like this:
 .. code-block::
