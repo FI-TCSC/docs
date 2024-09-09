@@ -7,9 +7,10 @@ Connecting to Narvi
 All access to Narvi is via Secure Shell (ssh).
 
 You can connect to ``narvi.tut.fi`` from the following kinds of computers: 
-#. Computers with centralized management by the IT Services, see Computer environment. When working outside of campuses, TUNI VPN must be used
-#. TUNI classroom and lab computers
-#. Students' own computers using eduVPN
+
+* Computers with centralized management by the IT Services, see Computer environment. When working outside of campuses, TUNI VPN must be used
+* TUNI classroom and lab computers
+* Students' own computers using eduVPN
 
 .. note::
 
