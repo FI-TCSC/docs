@@ -14,7 +14,7 @@ Narvi is the `Tampere University's <https://www.tuni.fi>`_ HPC linux cluster.  I
 researchers of University. It is almost identical to other `FGCI <https://www.csc.fi/en/-/suomen-grid-ja-pilvilaskentainfrastruktuuri-hankkii-dell-emc-n-palvelimia>`_ clusters.
 Also we are very similar than large CSC clusters, but of course they are larger
 and Narvi might easier to start with because it is more integrated into the local
-environment.
+environment. 
 
 
 If you are here for `FGCI kickstart <Kickstart_>`_ link to local differences is `here <kickstart-diffs.html>`_
